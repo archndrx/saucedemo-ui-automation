@@ -1,0 +1,30 @@
+<testsuites id="" name="" tests="12" failures="0" skipped="0" errors="0" time="18.223402">
+<testsuite name="checkout.spec.ts" timestamp="2026-11-03T07:53:52.661Z" hostname="chromium" tests="5" failures="0" skipped="0" time="38.431" errors="0">
+<testcase name="E2E Checkout › TC-CHK-01 checkout Sauce Labs Onesie sampai selesai" classname="checkout.spec.ts" time="9.285">
+</testcase>
+<testcase name="E2E Checkout › TC-CHK-02 Back Home setelah checkout kembali ke produk dengan keranjang kosong" classname="checkout.spec.ts" time="8.498">
+</testcase>
+<testcase name="E2E Checkout › TC-CHK-03 checkout tidak bisa lanjut tanpa First Name" classname="checkout.spec.ts" time="8.703">
+</testcase>
+<testcase name="E2E Checkout › TC-CHK-04 checkout tidak bisa lanjut tanpa Last Name" classname="checkout.spec.ts" time="8.804">
+</testcase>
+<testcase name="E2E Checkout › TC-CHK-05 checkout tidak bisa lanjut tanpa Postal Code" classname="checkout.spec.ts" time="3.141">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="2026-11-03T07:53:52.661Z" hostname="chromium" tests="7" failures="0" skipped="0" time="11.987" errors="0">
+<testcase name="Login › TC-LOGIN-01 login berhasil dengan standard_user" classname="login.spec.ts" time="2.282">
+</testcase>
+<testcase name="Login › TC-LOGIN-02 login gagal dengan password salah" classname="login.spec.ts" time="1.802">
+</testcase>
+<testcase name="Login › TC-LOGIN-03 login gagal untuk user yang terkunci" classname="login.spec.ts" time="1.821">
+</testcase>
+<testcase name="Login › TC-LOGIN-04 username wajib diisi" classname="login.spec.ts" time="1.179">
+</testcase>
+<testcase name="Login › TC-LOGIN-05 password wajib diisi" classname="login.spec.ts" time="1.534">
+</testcase>
+<testcase name="Login › TC-LOGIN-06 halaman produk tidak bisa dibuka tanpa login" classname="login.spec.ts" time="1.507">
+</testcase>
+<testcase name="Login › TC-LOGIN-07 logout mengembalikan user ke halaman login" classname="login.spec.ts" time="1.862">
+</testcase>
+</testsuite>
+</testsuites>

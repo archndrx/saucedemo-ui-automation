@@ -1,0 +1,19 @@
+{
+  "name": "saucedemo-ui-automation",
+  "version": "1.0.0",
+  "description": "Take Home Test - Task 3: UI automation untuk saucedemo.com (Login dan E2E Checkout)",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:login": "playwright test tests/login.spec.ts",
+    "test:checkout": "playwright test tests/checkout.spec.ts",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
